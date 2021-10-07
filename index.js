@@ -34,7 +34,7 @@ const questions = [
   {
     type: "input",
     name: "test",
-    message: "What are the test instructions for this project",
+    message: "What are the test instructions for this project?",
   },
   {
     type: "checkbox",

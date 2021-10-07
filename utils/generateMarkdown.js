@@ -13,7 +13,7 @@ function renderLicenseBadge(licenses) {
 // If there is no license, return an empty string
 function renderLicenseLink(licenses) {
   if (licenses !== "none") {
-    return `- [License](#License)`;
+    return `- [License](#license)`;
   }
   return "";
 }
@@ -22,8 +22,8 @@ function renderLicenseLink(licenses) {
 // If there is no license, return an empty string
 function renderLicenseSection(licenses) {
   if (licenses !== "none") {
-    return `## License: <br> 
-    This project is licensed with ${licenses} `;
+    return `## License: <br>
+    - This project is licensed with ${licenses} `;
   }
   return "";
 }
@@ -38,14 +38,14 @@ ${renderLicenseBadge(data.licenses)}
 
 # Table of Contents
 
-- [Description](#Description)<br>
-- [Installation](#Installation)<br>
+- [Description](#description)<br>
+- [Installation](#installation)<br>
 - [Usage](#Usage)<br>
 - [Contribution](#contribution)<br>
-- [Test](#Test)<br>
+- [Test](#test)<br>
 ${renderLicenseLink(data.licenses)}<br>
-- [Username](#Username)<br>
-- [Questions](#Questions)
+- [Username](#username)<br>
+- [Questions](#questions)
 
 
 ## Installation:
